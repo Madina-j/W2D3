@@ -1,4 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: wheat;
+  text-align: center;
+}
+.container {
+  background-color: darkgoldenrod;
+  margin: 10px 20px;
+}
+
+nav {
+  background-color: rgb(64, 46, 2);
+}
+
 nav ul {
+  display: flex;
   list-style-type: none;
-  flex: ;
+  justify-content: space-around;
+  padding: 10px;
+}
+li {
+  color: wheat;
+}
+
+.image {
+  display: flex;
+}
+
+h2 {
+  margin: 10px;
+}
+.selections {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+div ul {
+  list-style-type: none;
+}
+
+form {
+  margin-top: 25px;
+  max-width: 500px;
 }
